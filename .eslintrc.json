@@ -21,6 +21,15 @@
     ],
     "rules": {
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
-        "react/react-in-jsx-scope" : "off"
+        "react/jsx-one-expression-per-line" : "off",
+        "react/jsx-closing-bracket-location": "off",
+        "react/react-in-jsx-scope" : "off",
+        "linebreak-style" : "off",
+        "import/no-unresolved" : "off",
+        "import/extensions" : "off",
+        "jsx-a11y/anchor-is-valid" : "off",
+        "jsx-a11y/label-has-associated-control" : "off",
+        "no-console" : "off"
+        
     }
 }
