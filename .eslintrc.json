@@ -23,6 +23,7 @@
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/jsx-one-expression-per-line" : "off",
         "react/jsx-closing-bracket-location": "off",
+        "react/jsx-props-no-spreading" : "off",
         "react/react-in-jsx-scope" : "off",
         "linebreak-style" : "off",
         "import/no-unresolved" : "off",

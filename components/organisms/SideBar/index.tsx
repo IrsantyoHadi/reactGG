@@ -49,21 +49,8 @@ const Menus = [
   },
 ];
 
-export default function SideBar() {
-  const [menus, setMenus] = useState([...Menus]);
-
-  const handleActive = (value: string) => {
-    const tempMenu = [...menus];
-
-    tempMenu.forEach((menu) => {
-      if (menu.title === value) {
-        menu.active = true;
-      } else {
-        menu.active = false;
-      }
-    });
-    setMenus(tempMenu);
-  };
+export default function SideBar({ activeMenu }: { activeMenu: string }) {
+  const [menus] = useState([...Menus]);
   return (
     <section className="sidebar">
       <div className="content pt-50 pb-30 ps-30">
@@ -74,9 +61,8 @@ export default function SideBar() {
               title={menu.title}
               path={menu.path}
               icon={menu.icon}
-              active={menu.active}
+              active={menu.title === activeMenu}
               key={menu.icon}
-              handleActive={handleActive}
             />
           ))}
         </div>
