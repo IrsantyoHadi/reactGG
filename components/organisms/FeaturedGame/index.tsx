@@ -2,27 +2,27 @@ import GameCard from '../../molecules/GameCard';
 
 const Games = [
   {
-    image: 'Thumbnail-1',
+    image: '/img/Thumbnail-1',
     title: 'Super Mechs',
     console: 'Mobile',
   },
   {
-    image: 'Thumbnail-2',
+    image: '/img/Thumbnail-2',
     title: 'Call of Duty: Modern',
     console: 'Mobile',
   },
   {
-    image: 'Thumbnail-3',
+    image: '/img/Thumbnail-3',
     title: 'Mobile Legends',
     console: 'Mobile',
   },
   {
-    image: 'Thumbnail-4',
+    image: '/img/Thumbnail-4',
     title: 'Clash of Clans',
     console: 'Mobile',
   },
   {
-    image: 'Thumbnail-5',
+    image: '/img/Thumbnail-5',
     title: 'Valorant',
     console: 'Desktop',
   },

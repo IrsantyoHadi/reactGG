@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 
-type GameCardProps = {
+export type GameCardProps = {
   image: string;
   title: string;
   console: string;
@@ -15,10 +15,10 @@ export default function GameCard({ image, title, console }: GameCardProps) {
           <div className="blur-sharp">
             <Image
               className="thumbnail"
-              src={`/img/${image}.png`}
+              src={image}
               width={205}
               height={270}
-              alt=""
+              alt="thumbnail"
             />
           </div>
           <div className="cover position-absolute bottom-0 m-32">
